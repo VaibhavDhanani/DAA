@@ -18,6 +18,7 @@ class TopologicalSort {
     }
 
     void tSort(int v, boolean visited[], Stack<Integer> stack) {
+        
         visited[v] = true;
 
         Iterator<Integer> it = adj[v].iterator();
